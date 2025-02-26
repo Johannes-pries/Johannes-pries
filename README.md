@@ -31,4 +31,8 @@ I am a computer science student at HSBI with a passion for learning new technolo
 ## 📈 GitHub Stats
 ![Johannes' GitHub stats](https://github-readme-stats.vercel.app/api?username=Johannes-pries&show_icons=true&theme=radical)
 
+<!-- LEETCODE-STATS-START -->
+Wird automatisch aktualisiert...
+<!-- LEETCODE-STATS-END -->
+
 Thank you for visiting my profile. Feel free to explore my repositories and get in touch!
