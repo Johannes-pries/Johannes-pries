@@ -7,6 +7,7 @@ I am a computer science student at HSBI with a passion for learning new technolo
 - 🌱 I’m currently studying Computer Science at HSBI.
 - 💻 I have fundamental knowledge in:
   - Java
+  - Python
   - C#
   - HTML
   - CSS
@@ -20,7 +21,7 @@ I am a computer science student at HSBI with a passion for learning new technolo
 
 ## 🛠️ Tools and Technologies
 [![Java](https://img.shields.io/badge/Java-f58312?style=for-the-badge&logo=java&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-007396?style=for-the-badge&logo=Python&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-4081b3?style=for-the-badge&logo=Python&logoColor=white)]()
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
@@ -36,8 +37,9 @@ I am a computer science student at HSBI with a passion for learning new technolo
 
 
 
+
 <!-- LEETCODE-STATS-START -->
-## 🚀 Mein LeetCode Fortschritt 🚀
+## 🚀 My LeetCode progress 🚀
 
 - **Total Solved:** 3 / 3466
 - **Easy:** 3 / 861
@@ -46,6 +48,7 @@ I am a computer science student at HSBI with a passion for learning new technolo
 - **Ranking:** 5000001
 
 <!-- LEETCODE-STATS-END -->
+
 
 
 

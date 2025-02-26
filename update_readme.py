@@ -13,7 +13,7 @@ data = response.json()
 
 leetcode_content = f"""
 <!-- LEETCODE-STATS-START -->
-## 🚀 Mein LeetCode Fortschritt 🚀
+## 🚀 My LeetCode progress 🚀
 
 - **Total Solved:** {data['totalSolved']} / {data['totalQuestions']}
 - **Easy:** {data['easySolved']} / {data['totalEasy']}
