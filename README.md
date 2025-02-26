@@ -19,7 +19,8 @@ I am a computer science student at HSBI with a passion for learning new technolo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-pries-a5998432b/)
 
 ## 🛠️ Tools and Technologies
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)]()
+[![Java](https://img.shields.io/badge/Java-f58312?style=for-the-badge&logo=java&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-007396?style=for-the-badge&logo=Python&logoColor=white)]()
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
@@ -31,8 +32,23 @@ I am a computer science student at HSBI with a passion for learning new technolo
 ## 📈 GitHub Stats
 ![Johannes' GitHub stats](https://github-readme-stats.vercel.app/api?username=Johannes-pries&show_icons=true&theme=radical)
 
+
+
+
+
 <!-- LEETCODE-STATS-START -->
-Wird automatisch aktualisiert...
+## 🚀 Mein LeetCode Fortschritt 🚀
+
+- **Total Solved:** 3 / 3466
+- **Easy:** 3 / 861
+- **Medium:** 0 / 1801
+- **Hard:** 0 / 804
+- **Ranking:** 5000001
+
 <!-- LEETCODE-STATS-END -->
+
+
+
+
 
 Thank you for visiting my profile. Feel free to explore my repositories and get in touch!

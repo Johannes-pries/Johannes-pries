@@ -1,4 +1,9 @@
+import sys
 import requests
+import re
+
+# Sicherstellen, dass UTF-8 verwendet wird
+sys.stdout.reconfigure(encoding="utf-8")
 
 USERNAME = "johannes-pries"
 API_URL = f"https://leetcode-stats-api.herokuapp.com/{USERNAME}"
@@ -6,34 +11,36 @@ API_URL = f"https://leetcode-stats-api.herokuapp.com/{USERNAME}"
 response = requests.get(API_URL)
 data = response.json()
 
-if response.status_code == 200:
-    solved = data.get("totalSolved", 0)
-    easy = data.get("easySolved", 0)
-    medium = data.get("mediumSolved", 0)
-    hard = data.get("hardSolved", 0)
-
-    with open("README.md", "r") as file:
-        readme = file.readlines()
-
-    start_index = readme.index("<!-- LEETCODE-STATS-START -->\n")
-    end_index = readme.index("<!-- LEETCODE-STATS-END -->\n")
-
-    stats = f"""
+leetcode_content = f"""
 <!-- LEETCODE-STATS-START -->
-### 📊 LeetCode Statistiken
+## 🚀 Mein LeetCode Fortschritt 🚀
 
-- **Gelöste Probleme**: {solved}
-- **Einfach**: {easy}, **Mittel**: {medium}, **Schwer**: {hard}
+- **Total Solved:** {data['totalSolved']} / {data['totalQuestions']}
+- **Easy:** {data['easySolved']} / {data['totalEasy']}
+- **Medium:** {data['mediumSolved']} / {data['totalMedium']}
+- **Hard:** {data['hardSolved']} / {data['totalHard']}
+- **Ranking:** {data['ranking']}
 
-[🔗 Mein LeetCode Profil](https://leetcode.com/{USERNAME}/)
 <!-- LEETCODE-STATS-END -->
 """
 
-    readme[start_index:end_index+1] = [stats]
+# 🔹 README einlesen und Marker ersetzen
+with open("README.md", "r", encoding="utf-8") as file:
+    readme_content = file.read()
 
-    with open("README.md", "w") as file:
-        file.writelines(readme)
-
-    print("README erfolgreich aktualisiert!")
+# Falls die Marker noch nicht existieren, einfach am Ende hinzufügen
+if "<!-- LEETCODE-STATS-START -->" not in readme_content:
+    readme_content += "\n" + leetcode_content
 else:
-    print("Fehler beim Abrufen der LeetCode-Daten")
+    readme_content = re.sub(
+        r"<!-- LEETCODE-STATS-START -->(.*?)<!-- LEETCODE-STATS-END -->",
+        leetcode_content,
+        readme_content,
+        flags=re.DOTALL
+    )
+
+# 🔹 README speichern
+with open("README.md", "w", encoding="utf-8") as file:
+    file.write(readme_content)
+
+print("✅ README.md erfolgreich aktualisiert!")
