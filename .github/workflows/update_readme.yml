@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"  # Läuft täglich um Mitternacht
   workflow_dispatch:  # Erlaubt manuelles Starten
 
+permissions:
+  contents: write  # 🔥 Erlaubt das Pushen von Änderungen
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
