@@ -56,16 +56,18 @@ I am a computer science student at HSBI with a passion for learning new technolo
 
 
 
+
 <!-- LEETCODE-STATS-START -->
 ## 🚀 My LeetCode progress 🚀
 
-- **Total Solved:** 4 / 3482
-- **Easy:** 4 / 864
-- **Medium:** 0 / 1810
-- **Hard:** 0 / 808
+- **Total Solved:** 4 / 3486
+- **Easy:** 4 / 865
+- **Medium:** 0 / 1811
+- **Hard:** 0 / 810
 - **Ranking:** 5000001
 
 <!-- LEETCODE-STATS-END -->
+
 
 
 
