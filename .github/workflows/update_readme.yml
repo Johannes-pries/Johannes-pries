@@ -2,7 +2,7 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Läuft täglich um Mitternacht
+    - cron: "0 0 1 * *"  # Läuft täglich um Mitternacht
   workflow_dispatch:  # Erlaubt manuelles Starten
 
 permissions:
