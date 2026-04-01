@@ -34,16 +34,18 @@ I am a computer science student at HSBI with a passion for learning new technolo
 ![Johannes' GitHub stats](https://github-readme-stats.vercel.app/api?username=Johannes-pries&show_icons=true&theme=radical) -->
 
 
+
 <!-- LEETCODE-STATS-START -->
 ## 🚀 My LeetCode progress 🚀
 
-- **Total Solved:** 4 / 3807
-- **Easy:** 4 / 922
-- **Medium:** 0 / 1985
-- **Hard:** 0 / 900
+- **Total Solved:** 4 / 3888
+- **Easy:** 4 / 935
+- **Medium:** 0 / 2033
+- **Hard:** 0 / 920
 - **Ranking:** 5000001
 
 <!-- LEETCODE-STATS-END -->
+
 
 
 Thank you for visiting my profile. Feel free to explore my repositories and get in touch!
